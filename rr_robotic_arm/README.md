@@ -51,3 +51,12 @@ To run the same solution for the exercise 3 but on manipulator with soft joints,
 > rosrun rr_robotic_arm ex3.py
 
 ![](https://github.com/RUFFY-369/Technical_assignment_TUD_internship/blob/main/imgs/ex3_soft.gif)
+
+### Note:
+
+#### Two scripts to execute exercise 3 solution:
+
+- 'ex3'.py uses position controller to reach to desired end effector position
+
+- 'ex3_1'.py uses custom pid controller to provide/publish required torques/efforts to respective joint to reach to desired end effector position
+
